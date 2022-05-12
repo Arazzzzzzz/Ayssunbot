@@ -7,7 +7,7 @@
       "pytgcalls",
       "productivity"
     ],
-    "repository": "https://github.com/subinps/MusicPlayer-Heroku",
+    "repository": "https://github.com/Arazzzzzzz/AyssunBot",
     "stack": "container",
     "env": {
       "API_ID": {
