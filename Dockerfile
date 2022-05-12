@@ -8,9 +8,9 @@ RUN apt-get update -y && \
         python3-pip \
         git \
         ffmpeg && \
-    git clone https://github.com/sangramghangale47/TelegramMusicBot && \
-    cd TelegramMusicBot && \
-    git clone https://github.com/pytgcalls/pytgcalls.git && \
+    git clone https://github.com/Arazzzzzzz/AyssunBot && \
+    cd AyssunBot && \
+    git clone https://github.com/Arazzzzzzz/AyssunBot.git && \
     cd pytgcalls && \
     npm install && \
     npm run prepare && \
@@ -18,9 +18,9 @@ RUN apt-get update -y && \
     npm install && \
     cd ../../ && \
     pip3 install -r requirements.txt && \
-    cp -r ./pytgcalls /TelegramMusicBot/ && \
-    cd /TelegramMusicBot && \
+    cp -r ./pytgcalls /AyssunBot/ && \
+    cd /AyssunBot && \
     pip3 install -U -r requirements.txt
 
-WORKDIR /TelegramMusicBot
+WORKDIR /AyssunBot
 CMD ["python3" "main.py"]
